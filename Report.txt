@@ -1,0 +1,13 @@
+************************ THROUGHPUT TEST 25 Mb Badwidth, 2s Duration *************************
+
+Customer Reference Number: EVOLVE PLUS TCTS Test Customer
+Start Date and Time: 2018-11-16 16:04:42.910 
+End Date and Time: 2018-11-16 16:05:39.564
+Testing Layer: Layer3
+Server IP: 10.10.10.9
+Client IP: 10.10.10.10
+UDP Ports: 5001
+Frames: 64, 128, 256, 512, 1024, 1280, 1518
+
+ByteSize  FrameDuration  DATA Tx     Bandwidth     Jitter     FrameLoss     Status
+----------------------------------------------------------------------------------

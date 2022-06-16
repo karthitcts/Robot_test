@@ -1,0 +1,103 @@
+
+
+****TCP BANDWIDTH TEST RESULTS ****
+
+
+
+****Results for 64 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size: 64.0 Byte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 56519 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  2.89 MBytes  12.1 Mbits/sec
+[  3] Sent 2059 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  2.89 MBytes  12.1 Mbits/sec   0.022 ms    0/ 2059 (0%)
+
+****Results for 128 byte Size with**** rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size:  128 Byte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 56520 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  3.04 MBytes  12.7 Mbits/sec
+[  3] Sent 2165 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  3.04 MBytes  12.7 Mbits/sec   0.059 ms    0/ 2165 (0%)
+
+****Results for 256 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size:  256 Byte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 58180 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  3.39 MBytes  14.2 Mbits/sec
+[  3] Sent 2415 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  3.39 MBytes  14.2 Mbits/sec   0.104 ms    0/ 2415 (0%)
+
+****Results for 512 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size:  512 Byte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 61023 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  3.27 MBytes  13.7 Mbits/sec
+[  3] Sent 2333 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  3.27 MBytes  13.7 Mbits/sec   0.095 ms    0/ 2333 (0%)
+
+****Results for 1024 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size: 1.00 KByte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 49440 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  2.98 MBytes  12.5 Mbits/sec
+[  3] Sent 2123 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  2.98 MBytes  12.5 Mbits/sec   0.146 ms    0/ 2123 (0%)
+
+****Results for 1280 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size: 1.25 KByte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 49447 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  3.47 MBytes  14.5 Mbits/sec
+[  3] Sent 2474 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  3.47 MBytes  14.5 Mbits/sec   0.083 ms    0/ 2474 (0%)
+
+****Results for 1518 byte Size with rate 25 Mbps****
+
+------------------------------------------------------------
+Client connecting to 10.10.10.9, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 448.61 us (kalman adjust)
+UDP buffer size: 1.48 KByte
+------------------------------------------------------------
+[  3] local 10.10.10.10 port 63391 connected with 10.10.10.9 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  6.25 MBytes  26.2 Mbits/sec
+[  3] Sent 4457 datagrams
+[  3] Server Report:
+[  3]  0.0- 2.0 sec  6.25 MBytes  26.2 Mbits/sec   0.604 ms    0/ 4457 (0%)
