@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220617 09:30:42.017" rpa="false" schemaversion="2">
+<suite id="s1" name="Ssh Robot Tc" source="D:\WEBQ_Data\Report Format\ssh_robot_tc.robot">
+<kw name="Open Connection And Log In" type="SETUP">
+<kw name="Open Connection">
+<arg>${HOST}</arg>
+<msg timestamp="20220617 09:30:42.304" level="FAIL">No keyword with name 'Open Connection' found.</msg>
+<status status="FAIL" starttime="20220617 09:30:42.304" endtime="20220617 09:30:42.305"/>
+</kw>
+<kw name="Login">
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" starttime="20220617 09:30:42.308" endtime="20220617 09:30:42.308"/>
+</kw>
+<status status="FAIL" starttime="20220617 09:30:42.301" endtime="20220617 09:30:42.308"/>
+</kw>
+<test id="s1-t1" name="Execute Command And Verify Output">
+<doc>Execute Command can be used to run commands on the remote machine.
+The keyword returns the standard output by default.</doc>
+<status status="FAIL" starttime="20220617 09:30:42.309" endtime="20220617 09:30:42.310">Parent suite setup failed:
+No keyword with name 'Open Connection' found.</status>
+</test>
+<kw name="Close All Connections" type="TEARDOWN">
+<msg timestamp="20220617 09:30:42.316" level="FAIL">No keyword with name 'Close All Connections' found.</msg>
+<status status="FAIL" starttime="20220617 09:30:42.316" endtime="20220617 09:30:42.316">No keyword with name 'Close All Connections' found.</status>
+</kw>
+<doc>This example demonstrates executing a command on a remote machine
+and getting its output.
+
+Notice how connections are handled as part of the suite setup and
+teardown. This saves some time when executing several test cases.</doc>
+<status status="FAIL" starttime="20220617 09:30:42.026" endtime="20220617 09:30:42.316">Suite setup failed:
+No keyword with name 'Open Connection' found.
+
+Also suite teardown failed:
+No keyword with name 'Close All Connections' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Ssh Robot Tc">Ssh Robot Tc</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220617 09:30:42.297" level="ERROR">Error in file 'D:\WEBQ_Data\Report Format\ssh_robot_tc.robot' on line 8: Importing library 'SSHLibrary' failed: ModuleNotFoundError: No module named 'SSHLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\lib\site-packages
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\lib\site-packages\win32
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\lib\site-packages\win32\lib
+  C:\Users\kjayacha\AppData\Local\Programs\Python\Python310\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
